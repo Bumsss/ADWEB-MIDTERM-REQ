@@ -7,7 +7,7 @@
   <p>LEARN MORE ABOUT THE SERVICES WE OFFER FOR THE FOLLOWING MANUFACTURERS</p>
 </div>
 <div class="wrapper">
-  <div *ngFor="let product of products">
+  <div *ngFor="let product of products" class="seperator">
     <h3>
       <a
         [title]="product.name + ' details'"
@@ -15,6 +15,7 @@
       >
         {{ product.name }}
       </a>
+      <hr />
     </h3>
 
     <p *ngIf="product.description">Description: {{ product.description }}</p>

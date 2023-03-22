@@ -27,3 +27,8 @@
   color: rgb(65, 65, 65);
   font-size: 13px;
 }
+
+.seperator {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 25px 15px;
+}
