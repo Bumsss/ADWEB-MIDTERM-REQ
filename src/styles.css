@@ -44,7 +44,7 @@ p {
 
 a {
   cursor: pointer;
-  color: #1976d2;
+  color: #303030;
   text-decoration: none;
 }
 
@@ -79,7 +79,7 @@ button {
   border-radius: 2px;
   font-size: 14px;
   cursor: pointer;
-  background-color: #1976d2;
+  background-color: #464646;
   color: white;
   border: none;
 }
@@ -100,11 +100,11 @@ button:disabled {
 
 .fancy-button {
   background-color: white;
-  color: #1976d2;
+  color: #303030;
 }
 
 .fancy-button i.material-icons {
-  color: #1976d2;
+  color: #444444;
   padding-right: 4px;
 }
 
@@ -112,8 +112,7 @@ button:disabled {
 
 app-top-bar {
   width: 100%;
-
-  background-color: #292929;
+  background-color: #3b3b3b;
   padding: 16px;
   display: flex;
   flex-direction: row;

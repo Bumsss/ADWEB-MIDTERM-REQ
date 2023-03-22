@@ -1,6 +1,7 @@
 .container {
   position: relative;
   text-align: center;
+  padding: 10px 0px 0px 0px;
 }
 .centered {
   position: absolute;
