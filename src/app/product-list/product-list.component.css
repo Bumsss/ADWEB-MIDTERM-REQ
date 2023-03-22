@@ -26,9 +26,15 @@
 .eh3 p {
   color: rgb(65, 65, 65);
   font-size: 13px;
+  padding-bottom: 1.5em;
 }
 
 .seperator {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 25px 15px;
+}
+
+hr {
+  border: 2px solid rgb(156, 156, 156);
+  border-radius: 5px;
 }
