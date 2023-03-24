@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Router } from '@angular/router';
 import { products } from '../products';
 
 @Component({
@@ -14,12 +14,21 @@ export class ProductListComponent {
 
   products = [...products];
 
+  constructor(private router: Router) {}
   share() {
     window.alert('The product has been shared!');
   }
 
   onNotify() {
-    window.alert('You will be notified when the product goes on sale');
+    window.alert('Parts and Service on this Super Car is Available');
+  }
+
+  onNotifyNega() {
+    window.alert('Parts and Service on this Super Car is not Available');
+  }
+
+  orderService() {
+    this.router.navigate(['products/:productId']);
   }
 }
 

@@ -39,3 +39,23 @@ hr {
   border: 2px solid rgb(156, 156, 156);
   border-radius: 5px;
 }
+
+.button,
+button a{
+  display: inline-flex;
+  align-items: center;
+  padding: 0px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #464646;
+  color: white;
+  border: none;
+}
+
+button.sAvailable {
+  margin: 0em 0em 0em 1em;
+}
+
+
+

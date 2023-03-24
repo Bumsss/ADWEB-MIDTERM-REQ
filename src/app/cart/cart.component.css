@@ -9,6 +9,16 @@
 input {
   width: 100%;
 }
+
+button.asd {
+  margin-left: 1em;
+ 
+}
+
+button.goBack {
+  margin-left: 1em;
+ 
+}
 /*
 Copyright Google LLC. All Rights Reserved.
 Use of this source code is governed by an MIT-style license that

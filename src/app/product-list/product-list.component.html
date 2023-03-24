@@ -19,11 +19,20 @@
     </h3>
 
     <p *ngIf="product.description">{{ product.description }}</p>
+    <div>
+      <button type="button">
+        <a
+          [title]="product.name + ' details'"
+          [routerLink]="['/products', product.id]"
+        >
+          Service
+        </a>
+      </button>
 
-    <button type="button" (click)="share()">Share</button>
-
-    <app-product-alerts [product]="product" (notify)="onNotify()">
-    </app-product-alerts>
+      <button class="sAvailable" type="button" (click)="onNotify()">
+        Check Service
+      </button>
+    </div>
   </div>
 </div>
 <!-- 

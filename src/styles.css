@@ -80,9 +80,11 @@ button {
   font-size: 14px;
   cursor: pointer;
   background-color: #464646;
-  color: white;
+  color: rgb(241, 241, 241);
   border: none;
 }
+
+
 
 .button:hover,
 button:hover {
